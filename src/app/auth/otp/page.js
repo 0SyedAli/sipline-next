@@ -24,7 +24,7 @@ export default function Otp() {
       </HStack>
       <AuthBtn title="Next" type="button" onClick={handleLogin} />
       <div className="resend_code">
-        <p>Code didn't receive?</p>
+        <p>Code didnt receive?</p>
         <h5>Resend Code</h5>
       </div>
     </form>
