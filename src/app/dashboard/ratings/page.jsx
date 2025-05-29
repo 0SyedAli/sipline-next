@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { FaStar } from "react-icons/fa";
-const userRating = "/images/rating_user.png";
 
 const Ratings = () => {
   return (
@@ -16,13 +16,13 @@ const Ratings = () => {
             <FaStar />
             <FaStar />
           </div>
-          <p>Based on 168 reviews</p>
+          <p>Based on 908 reviews</p>
         </div>
       </div>
       <div className="user_rating_item">
         <div className="user_rating_item_inner">
           <div className="d-flex gap-3">
-            <img src={userRating} alt="" />
+            <Image src="/images/rating_user.png" width={90} height={88} alt="ticket icon" />
             <div className="user_rating_info">
               <h3 className="pb-2">Allen Warn</h3>
               <div className="rh_stars">
@@ -52,7 +52,7 @@ const Ratings = () => {
       <div className="user_rating_item">
         <div className="user_rating_item_inner">
           <div className="d-flex gap-3">
-            <img src={userRating} alt="" />
+            <Image src="/images/rating_user.png" width={90} height={88} alt="ticket icon" />
             <div className="user_rating_info">
               <h3 className="pb-2">Allen Warn</h3>
               <div className="rh_stars">
@@ -82,7 +82,7 @@ const Ratings = () => {
       <div className="user_rating_item">
         <div className="user_rating_item_inner">
           <div className="d-flex gap-3">
-            <img src={userRating} alt="" />
+            <Image src="/images/rating_user.png" width={90} height={88} alt="ticket icon" />
             <div className="user_rating_info">
               <h3 className="pb-2">Allen Warn</h3>
               <div className="rh_stars">
@@ -112,7 +112,7 @@ const Ratings = () => {
       <div className="user_rating_item">
         <div className="user_rating_item_inner">
           <div className="d-flex gap-3">
-            <img src={userRating} alt="" />
+            <Image src="/images/rating_user.png" width={90} height={88} alt="ticket icon" />
             <div className="user_rating_info">
               <h3 className="pb-2">Allen Warn</h3>
               <div className="rh_stars">

@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import NewOrder from "@/components/NewOrder";
-import Preparing from "@/components/Preparing";
 
 const Page = () => {
   const [activeTab, setActiveTab] = useState("new");

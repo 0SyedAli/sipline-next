@@ -1,13 +1,12 @@
 import { useDisclosure } from "@chakra-ui/react";
 
 import AddNow from "./Modal/AddNow";
-const productimage1 = "/images/product1.jpg";
-const edit_icon = "/images/edit_icon.png";
+import Image from "next/image";
 const ProductCards = ({ checked }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div className="product_card">
-      <img className="product_image" src={productimage1} />
+      <Image src="/images/product1.jpg" width={228} height={194} alt="ticket icon" />
       <div className="product_top">
         <div className="status_td">
           <span>In Stock</span>
@@ -30,7 +29,7 @@ const ProductCards = ({ checked }) => {
         </div>
 
         <button type="button" className="border-0 bg-transparent" onClick={onOpen}>
-          <img src={edit_icon} />
+          <Image src="/images/edit_icon.png" width={23} height={23} alt="ticket icon" />
         </button>
       </div>
       <AddNow isOpen={isOpen} onClose={onClose} btntitle="Update" />

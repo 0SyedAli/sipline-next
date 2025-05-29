@@ -1,10 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 
-const productimage1 = "/images/product1.jpg";
 const CategoryCards = ({ title }) => {
   return (
     <div className="product_card">
-      <img className="product_image" src={productimage1} />
+      <Image src="/images/product1.jpg" width={228} height={194} alt="ticket icon" />
       <div className="text-center mt-3">
         <h4 className="my-3">{title}</h4>
         <Link className="button_detele" href="/dashboard/manage-product">

@@ -22,7 +22,7 @@
 }
 .inputField .iconImage {
   height: 24px; /* Adjust size as needed */
-  width: auto;
+  width: 24px;
 }
 .inputField input {
   height: 54px;

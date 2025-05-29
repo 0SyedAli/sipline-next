@@ -7,6 +7,7 @@ import {
   Stack,
   InputLeftElement,
 } from "@chakra-ui/react";
+import Image from "next/image";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import the icons
 const InputField = ({
   type,
@@ -15,6 +16,7 @@ const InputField = ({
   show,
   handleClick,
   classInput,
+  classImg,
   placeholder,
   ...rest
 }) => {
@@ -23,7 +25,7 @@ const InputField = ({
       <Stack>
         <InputGroup>
           <InputLeftElement pointerEvents="none" className={styles.icon}>
-            <img src={imageSrc} alt="" className={styles.iconImage} />
+            <Image src={imageSrc} alt="" width={24} height={24}  className={`${classImg ? classImg : styles.iconImage}`} />
           </InputLeftElement>
 
           {/* Input field */}

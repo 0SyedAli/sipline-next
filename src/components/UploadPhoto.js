@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 
@@ -18,11 +19,13 @@ export default function UploadPhoto() {
     <div style={styles.container}>
       {selectedImage ? (
         <div style={styles.imageContainer}>
-          <img src={selectedImage} alt="Selected" style={styles.imagePreview} />
+          <Image width={124} height={124} src={selectedImage} alt="Selected" style={styles.imagePreview} />
         </div>
       ) : (
-        <img
-          src="../../images/profile.png"
+        <Image
+          width={40}
+          height={40}
+          src="/images/profile.png"
           alt="Selected"
           style={styles.ImageDummy}
         />
@@ -75,7 +78,7 @@ const styles = {
     opacity: "0",
     cursor: "pointer",
     position: "absolute",
-    zIndex:'111'
+    zIndex: '111'
   },
   add_icon: {
     position: "absolute",
@@ -89,7 +92,7 @@ const styles = {
     width: "43px",
     height: "43px",
     boxShadow: "rgba(149, 157, 165, 0.3) -1px 5px 23px",
-    zIndex:'2',
-    fontSize:'20px'
+    zIndex: '2',
+    fontSize: '20px'
   },
 };

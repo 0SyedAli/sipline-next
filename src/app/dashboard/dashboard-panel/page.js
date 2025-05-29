@@ -1,6 +1,7 @@
 import CardLineChart from "@/components/CardLineChart";
 import CardLineChart2 from "@/components/CardLineChart2";
 import OverviewCards from "@/components/OverviewCards";
+import Image from "next/image";
 import Link from "next/link";
 
 const img1 = "/images/dollar-circle.png";
@@ -105,7 +106,7 @@ const DashboardPanel = ({ activeTab }) => {
                   <tr key={index}>
                     <th scope="row">{order.id}</th>
                     <td className="user_td">
-                      <img src={order.image} alt="User Avatar" />
+                      <Image width={40} height={40} src={order.image} alt="User Avatar" />
                       {order.name}
                     </td>
                     <td>{order.category}</td>

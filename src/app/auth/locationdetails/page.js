@@ -18,6 +18,7 @@ export default function Otp() {
         placeholder="12345670"
         id="number"
         classInput="classInput"
+        classImg="classImg"
       />
       <label htmlFor="email">Country</label>
       <InputField
@@ -25,6 +26,7 @@ export default function Otp() {
         placeholder="USA"
         id="country"
         classInput="classInput"
+        classImg="classImg"
       />
       <label htmlFor="email">State</label>
       <InputField
@@ -32,6 +34,7 @@ export default function Otp() {
         placeholder="California"
         id="state"
         classInput="classInput"
+        classImg="classImg"
       />
       <label htmlFor="email">City</label>
       <InputField
@@ -39,6 +42,7 @@ export default function Otp() {
         placeholder="Los angeles"
         id="city"
         classInput="classInput"
+        classImg="classImg"
       />
       <br />
       <AuthBtn title="Next" type="button" onClick={handleLogin} />

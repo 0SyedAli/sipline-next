@@ -22,6 +22,7 @@ export default function LoginPage() {
           id="number"
           placeholder="12345670"
           classInput="classInput"
+          classImg="classImg"
         />
         <label>Cooking Time</label>
         <InputField
@@ -29,6 +30,7 @@ export default function LoginPage() {
           id="time"
           placeholder="25min to 30min"
           classInput="classInput"
+          classImg="classImg"
         />
         <AuthBtn title="Next" type="button" onClick={handleLogin} />
       </fieldset>

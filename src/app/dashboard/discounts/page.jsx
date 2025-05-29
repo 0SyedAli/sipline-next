@@ -1,9 +1,8 @@
 "use client";
 import AreYouSure from "@/components/Modal/AreYouSure";
 import { useDisclosure } from "@chakra-ui/react";
+import Image from "next/image";
 import Link from "next/link";
-const edetIcon = "/images/edit-2.svg";
-const deleteIcon = "/images/trash.svg";
 
 const Discounts = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -38,14 +37,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={24} height={24} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -62,14 +61,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -86,14 +85,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -110,14 +109,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -134,14 +133,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -158,14 +157,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 type="button"
                 className="delete_btn"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -182,14 +181,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>
@@ -206,14 +205,14 @@ const Discounts = () => {
                 href="/dashboard/discounts/edit-discount"
                 className="edit_btn"
               >
-                <img src={edetIcon} alt="" />
+                <Image src="/images/edit-2.svg" width={26} height={26} alt="ticket icon" />
               </Link>
               <button
                 className="delete_btn"
                 type="button"
                 onClick={onOpen}
               >
-                <img src={deleteIcon} alt="" />
+                <Image src="/images/trash.svg" width={26} height={26} alt="ticket icon" />
               </button>
             </div>
           </div>

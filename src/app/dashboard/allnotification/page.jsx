@@ -1,6 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 
-const ticket = "/images/ticket.png";
+// const ticket = "/images/ticket.png";
 const AllNotification = () => {
   return (
     <div className="page">
@@ -10,7 +11,7 @@ const AllNotification = () => {
       <div className="allNotification_body">
         <div className="notify_item">
           <div className="noti_icon">
-            <img src={ticket} alt="ticket icon" />
+            <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
           </div>
           <div className="d-flex justify-content-between w-100">
             <div>
@@ -27,7 +28,7 @@ const AllNotification = () => {
         </div>
         <div className="notify_item">
           <div className="noti_icon">
-            <img src={ticket} alt="ticket icon" />
+            <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
           </div>
           <div className="d-flex justify-content-between w-100">
             <div>
@@ -44,7 +45,7 @@ const AllNotification = () => {
         </div>
         <div className="notify_item">
           <div className="noti_icon">
-            <img src={ticket} alt="ticket icon" />
+            <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
           </div>
           <div className="d-flex justify-content-between w-100">
             <div>
@@ -61,7 +62,7 @@ const AllNotification = () => {
         </div>
         <div className="notify_item">
           <div className="noti_icon">
-            <img src={ticket} alt="ticket icon" />
+            <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
           </div>
           <div className="d-flex justify-content-between w-100">
             <div>
@@ -78,7 +79,7 @@ const AllNotification = () => {
         </div>
         <div className="notify_item">
           <div className="noti_icon">
-            <img src={ticket} alt="ticket icon" />
+            <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
           </div>
           <div className="d-flex justify-content-between w-100">
             <div>

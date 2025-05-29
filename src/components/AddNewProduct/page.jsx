@@ -34,6 +34,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="Orange Juice"
               id="name"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
           <div className="col-6">
@@ -43,6 +44,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="45"
               id="stock"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
           <div className="col-6">
@@ -52,6 +54,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="%"
               id="discount"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
           <div className="col-6">
@@ -61,6 +64,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="$500"
               id="price"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
           <div className="col-6">
@@ -70,6 +74,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="Category Name"
               id="category"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
           <div className="col-6">
@@ -79,6 +84,7 @@ export const AddNewProduct = ({ title, btntitle }) => {
               placeholder="Jack Daniel"
               id="brand"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
         </div>

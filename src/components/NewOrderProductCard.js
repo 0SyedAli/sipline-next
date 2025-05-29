@@ -1,8 +1,4 @@
-import Link from "next/link";
-
-const productimage1 = "/images/product1.jpg";
-const idLabel = "/images/receipt-2.png";
-const edit_icon = "/images/edit_icon.png";
+import Image from "next/image";
 const NewOrderProductCard = ({
   id,
   status,
@@ -13,7 +9,7 @@ const NewOrderProductCard = ({
 }) => {
   return (
     <div className="product_card">
-      <img className="product_image" src={productimage1} />
+      <Image src="/images/product1.jpg" width={233} height={199} alt="ticket icon" />
       <div className="product_top">
         {status && (
           <div className="status_td">
@@ -24,7 +20,7 @@ const NewOrderProductCard = ({
       </div>
       {id && (
         <div className="new_order_id">
-          <img src={idLabel} alt="" />
+          <Image src="/images/receipt-2.png" width={8} height={9} alt="ticket icon" />
           <span>{id}</span>
         </div>
       )}

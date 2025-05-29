@@ -1,9 +1,9 @@
+import Image from "next/image";
 
-const productimage1 = "/images/product1.jpg";
 const VariantProduct = ({ title, quantity, price }) => {
   return (
     <div className="product_card">
-      <img className="product_image" src={productimage1} />
+      <Image className="product_image" width={203} height={173} src="/images/product1.jpg" alt="" />
       <div className="d-flex align-items-center justify-content-between">
         <h4>{title}</h4>
         <div className="product_top">

@@ -1,19 +1,8 @@
 "use client"
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const image1 = "/images/user1.png";
-const image2 = "/images/user1.png";
-const image3 = "/images/user1.png";
-const image4 = "/images/user1.png";
-const image5 = "/images/user1.png";
-const image6 = "/images/user1.png";
-const image7 = "/images/user1.png";
-const image8 = "/images/user1.png";
-const image9 = "/images/user1.png";
-const image10 = "/images/user1.png";
-const image11 = "/images/user1.png";
-const image12 = "/images/user1.png";
-const image13 = "/images/user1.png";
 
 const NewOrder = ({ activeTab }) => {
 
@@ -37,7 +26,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE22",
-      image: image2,
+      image: image1,
       name: "John Doe",
       category: "Pizza",
       amount: "-$12",
@@ -47,7 +36,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE23",
-      image: image3,
+      image: image1,
       name: "Jane Smith",
       category: "Salad",
       amount: "+$8",
@@ -57,7 +46,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE24",
-      image: image4,
+      image: image1,
       name: "Emma Brown",
       category: "Pasta",
       amount: "+$15",
@@ -67,7 +56,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE25",
-      image: image5,
+      image: image1,
       name: "Liam Wilson",
       category: "Sushi",
       amount: "+$20",
@@ -77,7 +66,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE26",
-      image: image6,
+      image: image1,
       name: "Sophia Garcia",
       category: "Steak",
       amount: "-$25",
@@ -87,7 +76,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE27",
-      image: image7,
+      image: image1,
       name: "Oliver Martinez",
       category: "Sandwich",
       amount: "+$7",
@@ -97,7 +86,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE28",
-      image: image8,
+      image: image1,
       name: "Isabella Davis",
       category: "Soup",
       amount: "+$5",
@@ -107,7 +96,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE29",
-      image: image9,
+      image: image1,
       name: "Mason Miller",
       category: "Fries",
       amount: "+$4",
@@ -117,7 +106,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE30",
-      image: image10,
+      image: image1,
       name: "Ethan Wilson",
       category: "Tacos",
       amount: "+$10",
@@ -127,7 +116,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE31",
-      image: image11,
+      image: image1,
       name: "Mia Anderson",
       category: "Wings",
       amount: "-$12",
@@ -137,7 +126,7 @@ const NewOrder = ({ activeTab }) => {
     },
     {
       id: "#4FE32",
-      image: image12,
+      image: image1,
       name: "Lucas Taylor",
       category: "Pasta",
       amount: "+$15",
@@ -174,7 +163,7 @@ const NewOrder = ({ activeTab }) => {
                 <tr key={index}>
                   <th scope="row">{order.id}</th>
                   <td className="user_td">
-                    <img src={order.image} alt="User Avatar"></img>
+                    <Image width={40} height={40} src={order.image} alt="User Avatar" />
                     {order.name}
                   </td>
                   <td>{order.category}</td>

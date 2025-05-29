@@ -61,6 +61,7 @@ export default function LoginPage() {
               id="time"
               placeholder="25min to 30min"
               classInput="classInput"
+              classImg="classImg"
             />
             <span>To</span>
             <InputField
@@ -68,6 +69,7 @@ export default function LoginPage() {
               id="time"
               placeholder="25min to 30min"
               classInput="classInput"
+              classImg="classImg"
             />
           </div>
         </div>

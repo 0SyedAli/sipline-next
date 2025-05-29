@@ -1,9 +1,11 @@
 // const img1 = "/images/user1.png";
 
+import Image from "next/image";
+
 const OverviewCards = ({ ovimg }) => {
   return (
     <div className="OverviewCards">
-      <img src={ovimg} alt="User" />
+      <Image width={38} height={38} src={ovimg} alt="User Avatar" />
       <p>Today Earning</p>
       <h2>$984.42</h2>
       <h5>

@@ -1,5 +1,6 @@
 "use client";
 import NewOrderProductCard from "@/components/NewOrderProductCard";
+import Image from "next/image";
 import Link from "next/link";
 const user1 = "/images/customer.png";
 const Order = () => {
@@ -9,28 +10,28 @@ const Order = () => {
       id: "123456",
       quantity: "5",
       coupon: "V1231231",
-           status: "new",
+      status: "new",
     },
     {
       title: "Orange Juice",
       id: "123456",
       quantity: "5",
       coupon: "V1231231",
-           status: "new",
+      status: "new",
     },
     {
       title: "Orange Juice",
       id: "123456",
       quantity: "5",
       coupon: "V1231231",
-           status: "new",
+      status: "new",
     },
     {
       title: "Orange Juice",
       id: "123456",
       quantity: "5",
       coupon: "V1231231",
-           status: "new",
+      status: "new",
     },
   ];
   const variantOrder = [
@@ -150,7 +151,7 @@ const Order = () => {
               <p>Customer Name</p>
               <div className="d-flex align-items-center justify-content-between">
                 <div className="cs_user d-flex align-items-center gap-2">
-                  <img src={user1} alt="" />
+                  <Image src="/images/customer.png" width={34} height={34} alt="ticket icon" />
                   <h3 className="m-0">Ronald Richards</h3>
                 </div>
                 <div className="d-flex align-items-center gap-2">

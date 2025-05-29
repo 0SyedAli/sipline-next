@@ -19,6 +19,7 @@ const EditDiscount = () => {
                     placeholder="Neon Night Bar"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -28,6 +29,7 @@ const EditDiscount = () => {
                     placeholder="USA"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -51,6 +53,7 @@ const EditDiscount = () => {
                     placeholder="Fixed"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -60,6 +63,7 @@ const EditDiscount = () => {
                     placeholder="40%"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -69,6 +73,7 @@ const EditDiscount = () => {
                     placeholder="200"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -78,6 +83,7 @@ const EditDiscount = () => {
                     placeholder="00000"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
                 <div className="col-6">
@@ -87,6 +93,7 @@ const EditDiscount = () => {
                     placeholder="United State"
                     id="email"
                     classInput="classInput"
+                    classImg="classImg"
                   />
                 </div>
               </div>

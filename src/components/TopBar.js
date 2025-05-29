@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import NotificationModal from "./notificationModalCont/NotificationModal";
+import Image from "next/image";
 
 const TopBar = () => {
   return (
@@ -10,7 +11,7 @@ const TopBar = () => {
           <h2 className="mb-1">
             Welcome Back, Travis
             <span>
-              <img src="../../images/greeting.png" alt="greeting" />
+              <Image src="/images/greeting.png" width={25} height={25} alt="greeting" />
             </span>
           </h2>
           <p>Are you thirsty? Would you like something?</p>
@@ -22,7 +23,7 @@ const TopBar = () => {
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            <img src="../../images/notification.png" alt="notification icon" />
+            <Image width={20} height={20} src="/images/notification.png" alt="notification icon" />
           </button>
           {/* <Link href="/dashboard/addcategory" className="btn btntheme3">
             Add Category

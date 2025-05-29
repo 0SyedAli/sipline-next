@@ -1,5 +1,6 @@
 "use client";
 import UserProductCard from "@/components/UserProductCard";
+import Image from "next/image";
 import { useState } from "react";
 import { FaPlus, FaStar } from "react-icons/fa";
 const user_cover = "/images/userCover.jpg";
@@ -14,13 +15,13 @@ const UserProfile = () => {
       <div className="user_banner mt-5">
         <div className="up_upload">
           <div className="up_cover">
-            <img src={user_cover} alt="" />
+            <Image src="/images/userCover.jpg" width={1461} height={270} alt="ticket icon" />
             <div className="up_upload_btn">
               <FaPlus />
             </div>
           </div>
           <div className="user_profile">
-            <img src={customer} alt="" />
+            <Image src="/images/user_demo.png" width={126} height={126} alt="ticket icon" />
             <div className="up_upload_btn">
               <FaPlus />
             </div>
@@ -37,7 +38,7 @@ const UserProfile = () => {
             <div className="up_heading d-flex align-items-center gap-3">
               <h3>Neon Night Bar </h3>
               <button className="border-0 bg-transparent">
-                <img src={edit_icon} alt="" />
+                <Image src="/images/edit_icon.png" width={1461} height={270} alt="ticket icon" />
               </button>
             </div>
             <h4 className="mb-0">927 Hornblend Street, San Diego, 92109</h4>
@@ -114,7 +115,7 @@ const UserProfile = () => {
                   <div className="user_rating_item">
                     <div className="user_rating_item_inner">
                       <div className="d-flex gap-3">
-                        <img src={userRating} alt="" />
+                        <Image src="/images/rating_user.png" width={90} height={88} alt="ticket icon" />
                         <div className="user_rating_info">
                           <h3 className="pb-2">Allen Warn</h3>
                           <div className="rh_stars">
@@ -247,7 +248,7 @@ const UserProfile = () => {
               <div className="d-flex align-items-center justify-content-between">
                 <h4>Mon</h4>
                 <h4>
-                   <span>10 : 00 AM - 05 : 00 PM</span>
+                  <span>10 : 00 AM - 05 : 00 PM</span>
                 </h4>
               </div>
               <div className="d-flex align-items-center justify-content-between">
@@ -277,7 +278,7 @@ const UserProfile = () => {
               <div className="d-flex align-items-center justify-content-between">
                 <h4>Sat</h4>
                 <h4>
-                   <span>10 : 00 AM - 05 : 00 PM</span>
+                  <span>10 : 00 AM - 05 : 00 PM</span>
                 </h4>
               </div>
               <div className="d-flex align-items-center justify-content-between">

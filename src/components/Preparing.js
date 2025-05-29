@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Preparing = () => {
   return (
     <div className="py-4 dash_list">
@@ -18,7 +20,8 @@ const Preparing = () => {
             <tr>
               <th scope="row">#4FE21</th>
               <td className="user_td">
-                <img src="/images/user1.png"></img>Ronald Richards
+                <Image width={30} height={30} alt="user" src="/images/user1.png"/>
+                Ronald Richards
               </td>
               <td>Burger</td>
               <td className="dollar_td">+$10</td>
@@ -32,7 +35,7 @@ const Preparing = () => {
             <tr>
               <th scope="row">#4FE21</th>
               <td className="user_td">
-                <img src="/images/user1.png"></img>Ronald Richards
+                <Image width={30} height={30} alt="user" src="/images/user1.png"/>Ronald Richards
               </td>
               <td>Burger</td>
               <td className="dollar_td danger">+$10</td>
@@ -46,7 +49,7 @@ const Preparing = () => {
             <tr>
               <th scope="row">#4FE21</th>
               <td className="user_td">
-                <img src="/images/user1.png"></img>Ronald Richards
+                <Image width={30} height={30} alt="user" src="/images/user1.png"/>Ronald Richards
               </td>
               <td>Burger</td>
               <td className="dollar_td">+$10</td>

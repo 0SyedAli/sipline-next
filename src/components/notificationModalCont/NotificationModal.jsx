@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 const ticket = "/images/ticket.png";
 
@@ -17,7 +18,7 @@ function NotificationModal() {
               <div className="noti_modal_container_body">
                 <div className="notify_item">
                   <div className="noti_icon">
-                    <img src={ticket} alt="ticket icon" />
+                    <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
                   </div>
                   <div className="">
                     <div>
@@ -34,7 +35,7 @@ function NotificationModal() {
                 </div>
                 <div className="notify_item">
                   <div className="noti_icon">
-                    <img src={ticket} alt="ticket icon" />
+                    <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
                   </div>
                   <div className="">
                     <div>
@@ -51,7 +52,7 @@ function NotificationModal() {
                 </div>
                 <div className="notify_item">
                   <div className="noti_icon">
-                    <img src={ticket} alt="ticket icon" />
+                    <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
                   </div>
                   <div className="">
                     <div>
@@ -68,7 +69,7 @@ function NotificationModal() {
                 </div>
                 <div className="notify_item">
                   <div className="noti_icon">
-                    <img src={ticket} alt="ticket icon" />
+                    <Image src="/images/ticket.png" width={16} height={16} alt="ticket icon" />
                   </div>
                   <div className="">
                     <div>
