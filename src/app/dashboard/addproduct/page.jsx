@@ -44,7 +44,7 @@ const Page = () => {
       <div className="manage_order_head pt-0">
         <h3 className="pb-2">Variants</h3>
       </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-5 row-cols-xxl-6 gx-3 pt-4 variant_product">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xxl-5 gx-3 pt-4 variant_product">
         {variantOrder.map((order, index) => (
           <div key={index} className="col">
             <VariantProduct

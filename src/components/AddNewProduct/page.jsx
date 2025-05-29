@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import InputField from "../Form/InputField";
 import { FileUpload } from "../UploadFile";
 import { useState } from "react";
@@ -18,15 +17,15 @@ export const AddNewProduct = ({ title, btntitle }) => {
   return (
     <div className="add_new_product">
       {/* Multiple FileUpload Components */}
-      <FileUpload
-        title={title}
-        state={files}
-        setState={setFiles}
-        handleFiles={handleFiles}
-      />
-
+   
       <form action="/">
-        <div className="row">
+        <FileUpload
+          title={title}
+          state={files}
+          setState={setFiles}
+          handleFiles={handleFiles}
+        />
+        <div className="row mt-3">
           <div className="col-6">
             <label htmlFor="name">Name</label>
             <InputField

@@ -31,7 +31,7 @@ export default function AddLocation() {
         </button>
       ) : (
         <>
-          <InputField placeholder="Search" classInput="classInput" />
+          <InputField placeholder="Search" classInput="classInput" classImg="classImg" />
           <MapDummy />
           <div className="mt-4">
             <AuthBtn title="Confirm" type="button" onClick={handleLogin} />

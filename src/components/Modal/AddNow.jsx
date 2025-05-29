@@ -8,7 +8,15 @@ function AddNow({ isOpen, onClose, btntitle }) {
       {/* Passing AddNewProduct as children to Modal */}
       <Modal isOpen={isOpen} onClose={onClose}>
         <AddNewProduct title="22" btntitle={btntitle} />
-
+        <button
+          onClick={() =>
+            onClose()
+          }
+          className="btn-sm"
+          style={{top:"15px", right:"15px"}}
+        >
+          X
+        </button>
       </Modal>
     </>
   );

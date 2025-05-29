@@ -68,17 +68,17 @@ const UserProfile = () => {
             <div className="tab-content">
               {activeTab === "product" && (
                 <div className="page product_tab">
-                  <div className="row">
-                    <div className="col-3">
+                  <div className="row gy-4">
+                    <div className="col-md-4 col-xxl-3">
                       <UserProductCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-md-4 col-xxl-3">
                       <UserProductCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-md-4 col-xxl-3">
                       <UserProductCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-md-4 col-xxl-3">
                       <UserProductCard />
                     </div>
                   </div>

@@ -710,6 +710,11 @@ td.user_td {
   border-radius: 8px;
 }
 
+.product_card img {
+  max-width: 100%;
+  height: auto;
+}
+
 .manage_order_body {
   padding: 25px 0;
 }
@@ -929,10 +934,10 @@ td.user_td {
 }
 
 .upload_btn label {
-  font-size: 8px;
-  font-weight: 600;
-  font-family: "Inter";
-  padding: 10px 0;
+  font-size: 8px !important;
+  font-weight: 600 !important;
+  font-family: "Inter" !important;
+  padding: 10px 0 !important;
 }
 
 .upload_btn label a {
@@ -1547,7 +1552,7 @@ button.reset_btn svg {
   position: relative;
 }
 
-.file_uploded_img .btn-sm {
+.btn-sm {
   position: absolute;
   z-index: 1;
   right: 5px;
@@ -1565,9 +1570,11 @@ button.reset_btn svg {
   border: 2px solid rgb(255, 79, 79);
   transition: all .3s ease;
 }
-.file_uploded_img .btn-sm:hover {
+
+.btn-sm:hover {
   background-color: rgba(255, 79, 79, 0.301);
 }
+
 .product_tab {
   padding-top: 30px;
 }
@@ -1673,5 +1680,43 @@ button.reset_btn svg {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .sidebar_container ul {
+    padding: 0 0 0 30px;
+  }
+
+  .sidebar_container ul li a {
+    padding: 10px 13px;
+  }
+
+  .about_sec,
+  .up_timing {
+    padding: 15px;
+  }
+  .up_timing h4 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .sidebar_container ul {
+    max-height: 60vh;
+  }
+
+  .sidebar_container ul li a {
+    padding: 10px 13px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .sidebar_container ul {
+    max-height: 55vh;
+  }
+
+  .sidebar_container ul li a {
+    padding: 9px 13px;
   }
 }
